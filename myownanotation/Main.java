@@ -16,6 +16,8 @@ public class Main {
         }
         System.out.println();
         System.out.println("bla bla bla");
+        System.out.println("bla bla bla");
+        System.out.println("bla bla bla");
         for (Field field : aClass.getDeclaredFields()) {
             MyAnotation myAnotation=field.getAnnotation(MyAnotation.class);
             if (field.isAnnotationPresent(MyAnotation.class)) {
